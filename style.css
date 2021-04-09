@@ -21,7 +21,7 @@ h1, h2, h3, h4 { margin: 0;}
         margin: 0 auto;
     }
 
-    /*intro*/
+    /*шапка*/
 
     .intro {
         display: flex;
@@ -49,6 +49,7 @@ h1, h2, h3, h4 { margin: 0;}
 
     /*надпись здесь довольно неформально*/
     .intro_suptitle {
+        font-family: 'Kaushan Script', cursive;
         font-size: 20px;
         text-align: center;
         
@@ -67,7 +68,7 @@ h1, h2, h3, h4 { margin: 0;}
     .header_logo {
         font-size: 50px;
         font-weight: 700; 
-        transition: color .2s linear;
+        transition: color .2s linear;  /*цвет при наведении на ЦНО*/
     }
 
     /*цвет лого НЦО*/
@@ -75,7 +76,7 @@ h1, h2, h3, h4 { margin: 0;}
         color: #fce38a;
     }
 
-    /* секция о нас блок */
+    /* блок "о нас" */
     .section {
         padding: 80px 0;
 
@@ -89,16 +90,24 @@ h1, h2, h3, h4 { margin: 0;}
         
     }
 
+    /*what we do*/
     .section_suptitle{
+        font-family: 'Kaushan Script', cursive;
         font-size: 24;
-    }
-
-    .section_suptitle{
         font-size: 15px;
         font-weight: 700;
         text-transform: uppercase;
     }
 
+    /*about us*/
+    .section_title{
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #333;
+    }
+
+    /*красная полоска под about us*/
     .section_title:after{
         content: "";
         display: block;
@@ -108,6 +117,7 @@ h1, h2, h3, h4 { margin: 0;}
         background-color: #f38181; 
     }
 
+    /*информация*/
     .section_text {
         color: #999;
         font-size: 15px; 
@@ -122,7 +132,6 @@ h1, h2, h3, h4 { margin: 0;}
 
     .about_item{
         width: 380px; 
-
         background-color: #95e1d3;
     }
 
@@ -134,6 +143,7 @@ h1, h2, h3, h4 { margin: 0;}
         opacity: .1;
     }
 
+    /*градиент*/
     .about_image{
     background: linear-gradient(to bottom, #f38181, #fce38a);
     transition: transform .1s, linear;
@@ -165,6 +175,7 @@ h1, h2, h3, h4 { margin: 0;}
         border-right: 1px solid #b5eae0;
     }
 
+    /*цифры*/
     .stat_count{
         margin-bottom: 10px;
         font-size: 72px;
@@ -172,6 +183,7 @@ h1, h2, h3, h4 { margin: 0;}
         line-height: 1;
     }
 
+    /*текст*/
     .stat_text{
         font-size: 14px;
         text-transform: uppercase;
