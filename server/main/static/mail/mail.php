@@ -6,9 +6,9 @@ if ($method !== 'POST') {
   exit();
 }
 
-$project_name = 'PizzaTime';
+$project_name = 'ЦНО';
 $admin_email = '';
-$form_subject = 'Заявка с сайта PizzaTime';
+$form_subject = 'Заявка с сайта ЦНО';
 $message = '';
 
 $color_counter = 1;

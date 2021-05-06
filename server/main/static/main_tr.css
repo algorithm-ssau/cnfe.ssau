@@ -547,7 +547,7 @@ img {
 }
 
 .page-title--accent {
-  color: #ffa650;
+  color: #ff5441;
 }
 
 @media (max-width: 576px) {
@@ -797,13 +797,13 @@ img {
 
 .product__btn {
   box-shadow: none;
-  background: #ffa650;
+  background: #ff5441;
   width: 200px;
   padding: 14px 20px;
 }
 
 .product__btn:hover {
-  background: #ff7c21;
+  background: #ec4b38;
 }
 
 @media (max-width: 1200px) {
@@ -1032,8 +1032,8 @@ img {
 
 /* logo start */
 .logo__img {
-  width: 127px;
-  height: 19px;
+  width: 50px;
+  height: 50px;
 }
 /* logo end */
 
@@ -1158,7 +1158,7 @@ img {
 .section-top {
   height: 100vh;
   min-height: 600px;
-  background: #0e1419 no-repeat center;
+  background: #fdfcfc no-repeat center;
   background-size: cover;
   color: #fff;
   display: flex;
@@ -1166,7 +1166,7 @@ img {
   align-items: center;
   text-align: center;
   position: relative;
-  padding: 170px 0 100px;
+  padding: 60px 0 100px;
 }
 
 .section-top::before {
@@ -1189,7 +1189,7 @@ img {
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  color: #fcff00;
+  color: #000000;
   margin: 0;
 }
 
@@ -1503,7 +1503,7 @@ img {
 }
 
 .popup__title {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .popup__subtitle {
@@ -1513,7 +1513,7 @@ img {
 }
 
 .popup__subtitle--order {
-  max-width: 360px;
+  max-width: 450px;
   margin: 0 auto 40px;
 }
 
