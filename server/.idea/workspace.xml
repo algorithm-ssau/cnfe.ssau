@@ -19,22 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1af3801-e3c0-44dc-b025-8591b145364d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/components.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/footer-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/header-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/img/section-top/gradient.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/img/section-top/gradient.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/mail/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/mail/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/main_tr.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main_tr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/section-about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/section-contacts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/static/section-top.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/treners.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/treners.html" afterDir="false" />
-    </list>
+    <list default="true" id="f1af3801-e3c0-44dc-b025-8591b145364d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
