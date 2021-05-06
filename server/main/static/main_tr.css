@@ -735,8 +735,8 @@ img {
 .product__img {
   display: block;
   margin: 0 auto 15px;
-  width: 340px;
-  height: 207px;
+  width: 240px;
+  height: 320px;
 }
 
 .product__title {
@@ -759,7 +759,7 @@ img {
 .product__sizes {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-radius: 21px;
   overflow: hidden;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.05);
