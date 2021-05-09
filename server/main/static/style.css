@@ -90,8 +90,6 @@ h1, h2, h3, h4 { margin: 0;}
         text-align: center;       
     }    
 
-
-        
     /*шапка*/
 
     .intro {
@@ -114,8 +112,6 @@ h1, h2, h3, h4 { margin: 0;}
         line-height: 1.2;
     }
         
-    
-
     .intro_inner {
         text-align: center;
         width: 100%;
@@ -133,9 +129,6 @@ h1, h2, h3, h4 { margin: 0;}
         text-align: center;
         
     }
-
-    
-    
 
     /*цвет лого НЦО*/
     .logo_title:hover {
@@ -190,9 +183,6 @@ h1, h2, h3, h4 { margin: 0;}
     }
 
     /*Иконки тренеры и тренинги*/
-
-    
-
     .about {
         display: flex;
         justify-content: space-between;
@@ -224,7 +214,10 @@ h1, h2, h3, h4 { margin: 0;}
         opacity: .1;
     }
 
-    
+    .href_go{
+        text-decoration: none;
+        color: #fff;
+    }
 
     /*градиент*/
     .about_image{
@@ -256,10 +249,6 @@ h1, h2, h3, h4 { margin: 0;}
     .about_item:hover .about_text{
         transform: translate3d(-10px,-50%,0);
     }
-    
-
-
-    
 
     /* синия полоска статистика */
     .statistics {
@@ -294,7 +283,6 @@ h1, h2, h3, h4 { margin: 0;}
     .stat_text{
         font-size: 14px;
         text-transform: uppercase;
-
     }
 
     .footer{
@@ -354,15 +342,3 @@ h1, h2, h3, h4 { margin: 0;}
         margin: 25px 0;
     }
 
-    /* .footer_col--second{
-        width: 29%;
-    }
-
-    .footer_col--third{
-        width: 22%;
-    }
-
-    .vk_size{
-        width: 280px;
-        height: 287px;
-    } */
