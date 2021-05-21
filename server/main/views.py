@@ -7,3 +7,5 @@ def index(request):
 
 def treners(request):
     return render(request, 'main/treners.html')
+def master_classes(request):
+    return render(request, 'main/master_classes.html')
