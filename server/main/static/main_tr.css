@@ -1104,11 +1104,13 @@ img {
   font-size: 25px;
   font-weight: 900;
   transition: color .2s linear;
-  text-align: center;       
+  text-align: center;
+  text-decoration: none;       
 }    
 /*цвет лого НЦО*/
 .logo_title:hover {
   color: #f61076;
+  
 }
 /* .logo{
   display: flex;
