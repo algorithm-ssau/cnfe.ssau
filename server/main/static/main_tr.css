@@ -752,6 +752,12 @@ img {
   font-weight: 900;
   font-size: 22px;
 }
+.product__titlee {
+  margin: 0 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+}
 
 .product__description {
   margin: 0;
