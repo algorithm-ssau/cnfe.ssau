@@ -1260,6 +1260,7 @@ img {
   .header-page__phone {
     font-size: 14px;
     padding: 7px 16px;
+    text-decoration: none;
   }
 }
 
