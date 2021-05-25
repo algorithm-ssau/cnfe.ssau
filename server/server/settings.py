@@ -18,8 +18,7 @@ SECRET_KEY = 'django-insecure-5ozvw+u(*!@f45vfcwac(8*gmb$7^sn04yxa7oi7vcs9@xt_c@
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-import django_heroku
-django_heroku.settings(locals())
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -31,18 +30,20 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
 ]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
-]
 
+]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ROOT_URLCONF = 'server.urls'
 
 TEMPLATES = [
